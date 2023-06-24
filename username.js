@@ -2,7 +2,7 @@ function show_user(){
 	var username = localStorage.getItem("username");
 	var user = document.createElement("p");
 	user.value = username;
-	document.body.appendChild(p);
+	document.body.appendChild(user);
 }
 function add_user(){
 	var user = prompt("Create your username: ");
